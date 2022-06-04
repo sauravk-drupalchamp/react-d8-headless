@@ -1,0 +1,9 @@
+name: Headless Config
+description: Provides configuration for headless Drupal
+type: module
+core: 8.x
+dependencies:
+  - rest
+  - serialization
+  - node
+  - user

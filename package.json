@@ -1,0 +1,40 @@
+{
+  "name": "headless-drupal",
+  "version": "1.0.0",
+  "description": "An example ReactJS application that uses Drupal 8 as its service layer.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack -p --mode production",
+    "dev": "./node_modules/.bin/webpack-dev-server --mode development --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ReactJS",
+    "Drupal"
+  ],
+  "author": "Jitesh Doshi <jitesh@spinspire.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "events": "^2.0.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
